@@ -1,0 +1,156 @@
+@font-face {
+src: url(fonts/Walkway.ttf);
+font-family:Walkway;
+}
+body{
+  background-image: url("55.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  font-family:Walkway;
+  font-weight: bold;
+  width: 99%;
+  height: 99%;
+}
+.container{
+  display: grid;
+  grid-template-columns: 20% auto 20%;
+  grid-template-rows:repeat(12,auto) ;
+  grid-template-areas:
+"header header header header header header header header header header header side-butns"
+"content content content content content content content content content content content content "
+;}
+
+.header{
+  grid-area:header;
+  display: flex;
+  flex-direction: row;
+  font-size: 30px;
+  justify-content: space-between;
+align-items: center;
+
+}
+.header a{
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  margin-top: 20px;
+
+
+}
+.side-butns{
+  grid-area: side-butns;
+
+  display:flex;
+align-items: center;
+justify-content: center;
+}
+#s{
+  font-size: 22px;
+  background-color: #00a2da;
+  color: white;
+  text-decoration: none;
+  padding:6px 6px;
+  border-radius: 6px;
+  align-items: center;
+
+}
+#signin{
+  font-size: 22px;
+  color:black;
+  text-decoration: none;
+  align-items: center;
+  margin-left: 5px;
+}
+
+.content{
+  grid-area:content;
+  display: flex;
+flex-direction: column;
+}
+.content h1{
+background:rgba(256, 256, 256, 0.5);
+text-align: center;
+}
+
+
+}
+.content-1 h3{
+color: white;
+background: rgba(0, 0, 0, 0.5);
+padding:5px 5px;
+width:16%;
+text-align: center;
+}
+.hori{
+  display: flex;
+  flex-direction:row;
+
+
+}
+.hori p{
+  font-size:25px;
+  background:rgba(0, 0, 0,0.7);
+  text-align: center;
+  width: 60%;
+  margin-left: 20px
+  color:white;
+}
+.why{
+  border: 6px solid white ;
+  width: 40%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.uff h1{
+  width:30%;
+  text-align: center;
+}
+.uff{
+  margin-top:24px;
+  justify-content:center;
+  display:flex;
+}
+.steps{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  text-align: center;
+}
+.bb{
+  color: white;
+  background:rgba(0, 0, 0, 0.7);
+font-size: 24px;
+width: 23%;
+text-align:center;}
+
+.pngs{
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+}
+
+.pngs img{
+  margin-top: 15px;
+}
+.cen{
+  width: 23%;
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  border: 5px solid white;
+background: rgba(258, 258, 258,0.4);
+border-radius: 5px;
+}
+/* edite h3 why constraction& more */
+#why-c{
+  background:rgba(256, 256, 256, 0.5);
+  width: 25%;
+  font-size: 25px;
+  text-align: center;
+}
+#prob-p{
+  color: white;
+}
